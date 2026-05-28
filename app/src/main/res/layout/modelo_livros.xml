@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="200dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="7dp"
-    android:layout_height="300dp">
+    android:id="@+id/modeloCardLivros"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    app:cardCornerRadius="7dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,14 +19,14 @@
             android:src="#2c2c2c" />
 
         <TextView
-            android:layout_marginTop="5sp"
             android:id="@+id/modeloTituloLivro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
             android:text="Título do Livro"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
