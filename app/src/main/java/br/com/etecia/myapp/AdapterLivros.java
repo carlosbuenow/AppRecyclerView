@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.ViewHolder> {
 
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -26,7 +25,6 @@ public class AdapterLivros extends RecyclerView.Adapter<AdapterLivros.ViewHolder
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
         }
